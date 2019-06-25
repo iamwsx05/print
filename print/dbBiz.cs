@@ -9,6 +9,9 @@ using weCare.Core.Utils;
 
 namespace print
 {
+    /// <summary>
+    /// sdfl;aksjf;lasjfd;l asjfd;l sjf;asjdf 
+    /// </summary>
     public class dbBiz
     {
         #region
