@@ -577,7 +577,7 @@ namespace print
                         on t.sample_id_chr = k.sample_id_chr
                         where t.appl_deptid_chr is not null 
                         and (t.accept_dat between to_date(?, 'yyyy-mm-dd hh24:mi:ss') and to_date(?, 'yyyy-mm-dd hh24:mi:ss')) 
-                        and t.status_int >= 2 and t.status_int < 7 order by  t.patientcardid_chr, d.DEPTNAME_VCHR";
+                        and t.status_int >= 2 and t.status_int < 7 order by  t.patientcardid_chr, d.DEPTNAME_VCHR  ";
 
                 IDataParameter[] parm = svc.CreateParm(2);
                 parm[0].Value = dteStart + " 00:00:00";
